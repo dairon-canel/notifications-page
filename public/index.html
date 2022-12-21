@@ -18,58 +18,88 @@
 
     <!-- <script src="./index.js" defer></script> -->
   </head>
-  <body class="grid min-h-screen bg-lightGrayishBlue1">
-    <main>
-      <section>
-        <h1>Notifications<span>3</span></h1>
-        <button>Mark all as read</button>
+  <body class="grid min-h-screen bg-veryLightGrayishBlue">
+    <main
+      class="my-10 grid place-self-center bg-white shadow-[0px_0px_20px_-3px_rgba(0,0,0,0.1)] [&>div]:grid [&>div]:grid-cols-[auto_1fr] [&>div>div]:order-2 [&>div>div]:grid [&>div>img]:order-1"
+    >
+      <section class="grid grid-flow-col">
+        <h1>Notifications<span class="bg-blue text-white">3</span></h1>
+        <button class="place-self-end">Mark all as read</button>
       </section>
       <div>
-        <h2>Mark Webber</h2>
-        <p>reacted to your recent post <b>My first tournament today!</b></p>
-        <span>1m ago</span>
+        <div>
+          <h2>
+            Mark Webber
+            <span>
+              reacted to your recent post
+              <a href="#">My first tournament today!</a>
+            </span>
+          </h2>
+          <p>1m ago</p>
+        </div>
         <img src="./avatar-mark-webber.webp" alt="Mark Webber" />
       </div>
       <div>
-        <h2>Angela Gray</h2>
-        <p>followed you</p>
-        <span>5m ago</span>
+        <div>
+          <h2>Angela Gray <span>followed you</span></h2>
+          <p>5m ago</p>
+        </div>
         <img src="./avatar-angela-gray.webp" alt="Angela Gray" />
       </div>
       <div>
-        <h2>Jacob Thompson</h2>
-        <p>has joined your group Chess Club</p>
-        <span>1 day ago</span>
+        <div>
+          <h2>
+            Jacob Thompson
+            <span>has joined your group <a href="#">Chess Club</a></span>
+          </h2>
+          <p>1 day ago</p>
+        </div>
         <img src="./avatar-jacob-thompson.webp" alt="Jacob Thompson" />
       </div>
       <div>
-        <h2>Rizky Hasanuddin</h2>
-        <p>
-          sent you a private message 5 days ago Hello, thanks for setting up the
-          Chess Club. I've been a member for a few weeks now and I'm already
-          having lots of fun and improving my game.
-        </p>
-        <span></span>
+        <div>
+          <h2>Rizky Hasanuddin <span>sent you a private message</span></h2>
+          <p>5 days ago</p>
+          <div>
+            Hello, thanks for setting up the Chess Club. I've been a member for
+            a few weeks now and I'm already having lots of fun and improving my
+            game.
+          </div>
+        </div>
         <img src="./avatar-rizky-hasanuddin.webp" alt="Rizky Hasanuddin" />
       </div>
       <div>
-        <p><b>Kimberly Smith</b> commented on your picture 1 week ago</p>
-        <span></span>
+        <div>
+          <h2>Kimberly Smith <span>commented on your picture</span></h2>
+          <p>1 week ago</p>
+          <img
+            class="col-start-2 col-end-3 row-start-1 row-end-3 place-self-end"
+            src="./image-chess.webp"
+            alt="Playing chess"
+          />
+        </div>
         <img src="./avatar-kimberly-smith.webp" alt="Kimberly Smith" />
-        <img src="./image-chess.webp" alt="Playing chess" />
       </div>
       <div>
-        <p>
-          <b>Nathan Peterson</b>
-          reacted to your recent post 5 end-game strategies to increase your win
-          rate 2 weeks ago
-        </p>
-        <span></span>
+        <div>
+          <h2>
+            Nathan Peterson
+            <span>
+              reacted to your recent post
+              <a href="#">5 end-game strategies to increase your win rate</a>
+            </span>
+          </h2>
+          <p>2 weeks ago</p>
+        </div>
         <img src="./avatar-nathan-peterson.webp" alt="Nathan Peterson" />
       </div>
       <div>
-        <p><b>Anna Kim</b> left the group Chess Club 2 weeks ago</p>
-        <span></span>
+        <div>
+          <h2>
+            Anna Kim <span>left the group <a href="#">Chess Club</a></span>
+          </h2>
+          <p>2 weeks ago</p>
+        </div>
         <img src="./avatar-anna-kim.webp" alt="Anna Kim" />
       </div>
     </main>
