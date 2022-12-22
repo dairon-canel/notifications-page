@@ -597,6 +597,38 @@ video {
   width: 2rem;
 }
 
+.max-w-\[70rem\] {
+  max-width: 70rem;
+}
+
+.max-w-\[50rem\] {
+  max-width: 50rem;
+}
+
+.max-w-\[45rem\] {
+  max-width: 45rem;
+}
+
+.max-w-\[46rem\] {
+  max-width: 46rem;
+}
+
+.max-w-\[45\.5rem\] {
+  max-width: 45.5rem;
+}
+
+.max-w-\[45\.2rem\] {
+  max-width: 45.2rem;
+}
+
+.max-w-\[45\.8rem\] {
+  max-width: 45.8rem;
+}
+
+.max-w-\[45\.7rem\] {
+  max-width: 45.7rem;
+}
+
 .grid-flow-col {
   grid-auto-flow: column;
 }
