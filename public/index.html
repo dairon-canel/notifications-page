@@ -20,11 +20,22 @@
   </head>
   <body class="grid min-h-screen bg-veryLightGrayishBlue">
     <main
-      class="my-10 grid place-self-center bg-white shadow-[0px_0px_20px_-3px_rgba(0,0,0,0.1)] [&>div]:grid [&>div]:grid-cols-[auto_1fr] [&>div>div]:order-2 [&>div>div]:grid [&>div>img]:order-1"
+      class="grid gap-3 place-self-center bg-white px-4 pt-[1.4rem] shadow-[0px_0px_20px_-3px_rgba(0,0,0,0.1)] [&>div]:grid [&>div]:grid-cols-[auto_1fr] [&>div]:rounded-md [&>div]:bg-red [&>div]:pt-[1rem] [&>div>div]:order-2 [&>div>div]:grid [&>div>img]:order-1 [&>div>img]:w-[2.5rem]"
     >
-      <section class="grid grid-flow-col">
-        <h1>Notifications<span class="bg-blue text-white">3</span></h1>
-        <button class="place-self-end">Mark all as read</button>
+      <section
+        class="mb-[0.55rem] grid grid-flow-col grid-cols-[8.5rem_2rem_auto] text-[1.26rem] font-800"
+      >
+        <h1>Notifications</h1>
+        <p
+          class="-mt-[0.25rem] w-[2rem] justify-start place-self-center rounded-md bg-blue text-center align-middle text-[1rem] text-white"
+        >
+          3
+        </p>
+        <button
+          class="place-self-end self-center text-[0.835rem] text-grayishBlue"
+        >
+          Mark all as read
+        </button>
       </section>
       <div>
         <div>
