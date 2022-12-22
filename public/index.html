@@ -20,7 +20,7 @@
   </head>
   <body class="grid min-h-screen bg-veryLightGrayishBlue">
     <main
-      class="grid gap-3 place-self-center bg-white px-4 pt-[1.4rem] shadow-[0px_0px_20px_-3px_rgba(0,0,0,0.1)] [&>div]:grid [&>div]:grid-cols-[auto_1fr] [&>div]:rounded-md [&>div]:bg-red [&>div]:pt-[1rem] [&>div>div]:order-2 [&>div>div]:grid [&>div>img]:order-1 [&>div>img]:w-[2.5rem]"
+      class="grid gap-3 place-self-center bg-white px-4 pb-[3rem] pt-[1.4rem] shadow-[0px_0px_20px_-3px_rgba(0,0,0,0.1)] [&>div]:grid [&>div]:grid-cols-[2.5rem_auto] [&>div]:gap-[0.7rem] [&>div]:rounded-md [&>div]:bg-veryLightGrayishBlue [&>div]:px-[1rem] [&>div]:pt-[1rem] [&>div]:text-[0.87rem] [&>div>div]:order-2 [&>div>div]:mt-[0.15rem] [&>div>div]:mb-[0.8rem] [&>div>div]:grid [&>div>img]:order-1 [&>div>img]:w-[2.5rem] [&>div>div>h2]:font-800 [&>div>div>h2]:leading-[1.155rem] [&>div>div>h2>span]:font-500 [&>div>div>h2>span]:text-darkGrayishBlue [&>div>div>h2>span>a]:font-800 [&>div>div>h2>span>a]:text-darkGrayishBlue [&>div>div>p]:mt-[0.1rem] [&>div>div>p]:text-grayishBlue [&>div>div>h2>span#alert]:mb-[0.08rem] [&>div>div>h2>span#alert]:ml-[0.25rem] [&>div>div>h2>span#alert]:inline-block [&>div>div>h2>span#alert]:h-[0.4rem] [&>div>div>h2>span#alert]:w-[0.4rem] [&>div>div>h2>span#alert]:rounded-full [&>div>div>h2>span#alert]:bg-red [&>div>div>img]:ml-[1rem] [&>div>div>img]:w-[2.5rem] [&>div>div>img]:place-self-start [&>div>div>div]:mt-[0.7rem] [&>div>div>div]:rounded-md [&>div>div>div]:border-[1px] [&>div>div>div]:py-[0.9rem] [&>div>div>div]:px-[1rem] [&>div>div>div]:text-grayishBlue"
     >
       <section
         class="mb-[0.55rem] grid grid-flow-col grid-cols-[8.5rem_2rem_auto] text-[1.26rem] font-800"
@@ -45,6 +45,7 @@
               reacted to your recent post
               <a href="#">My first tournament today!</a>
             </span>
+            <span id="alert"></span>
           </h2>
           <p>1m ago</p>
         </div>
@@ -52,7 +53,11 @@
       </div>
       <div>
         <div>
-          <h2>Angela Gray <span>followed you</span></h2>
+          <h2>
+            Angela Gray
+            <span>followed you</span>
+            <span id="alert"></span>
+          </h2>
           <p>5m ago</p>
         </div>
         <img src="./avatar-angela-gray.webp" alt="Angela Gray" />
@@ -61,7 +66,11 @@
         <div>
           <h2>
             Jacob Thompson
-            <span>has joined your group <a href="#">Chess Club</a></span>
+            <span
+              >has joined your group
+              <a href="#">Chess Club</a>
+            </span>
+            <span id="alert"></span>
           </h2>
           <p>1 day ago</p>
         </div>
@@ -69,7 +78,11 @@
       </div>
       <div>
         <div>
-          <h2>Rizky Hasanuddin <span>sent you a private message</span></h2>
+          <h2>
+            Rizky Hasanuddin
+            <span>sent you a private message</span>
+            <span id="alert"></span>
+          </h2>
           <p>5 days ago</p>
           <div>
             Hello, thanks for setting up the Chess Club. I've been a member for
@@ -81,7 +94,11 @@
       </div>
       <div>
         <div>
-          <h2>Kimberly Smith <span>commented on your picture</span></h2>
+          <h2>
+            Kimberly Smith
+            <span>commented on your picture</span>
+            <span id="alert"></span>
+          </h2>
           <p>1 week ago</p>
           <img
             class="col-start-2 col-end-3 row-start-1 row-end-3 place-self-end"
@@ -99,6 +116,7 @@
               reacted to your recent post
               <a href="#">5 end-game strategies to increase your win rate</a>
             </span>
+            <span id="alert"></span>
           </h2>
           <p>2 weeks ago</p>
         </div>
@@ -107,7 +125,12 @@
       <div>
         <div>
           <h2>
-            Anna Kim <span>left the group <a href="#">Chess Club</a></span>
+            Anna Kim
+            <span
+              >left the group
+              <a href="#">Chess Club</a>
+            </span>
+            <span id="alert"></span>
           </h2>
           <p>2 weeks ago</p>
         </div>
