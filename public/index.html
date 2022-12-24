@@ -16,31 +16,32 @@
 
     <title>Frontend Mentor | Notifications page</title>
 
-    <!-- <script src="./index.js" defer></script> -->
+    <script src="./index.js" defer></script>
   </head>
   <body class="grid min-h-screen bg-veryLightGrayishBlue">
     <main
-      class="grid max-w-[45.7rem] gap-3 place-self-center bg-white px-4 pb-[3rem] pt-[1.4rem] shadow-[0px_0px_20px_-3px_rgba(0,0,0,0.1)] [&>div]:grid [&>div]:grid-cols-[2.5rem_auto] [&>div]:gap-[0.7rem] [&>div]:rounded-md [&>div]:bg-veryLightGrayishBlue [&>div]:px-[1rem] [&>div]:pt-[1rem] [&>div]:text-[0.87rem] [&>div>div]:order-2 [&>div>div]:mt-[0.15rem] [&>div>div]:mb-[0.8rem] [&>div>div]:grid [&>div>img]:order-1 [&>div>img]:w-[2.5rem] [&>div>div>h2]:font-800 [&>div>div>h2]:leading-[1.155rem] [&>div>div>h2>span]:font-500 [&>div>div>h2>span]:text-darkGrayishBlue [&>div>div>h2>span>a]:font-800 [&>div>div>h2>span>a]:text-darkGrayishBlue [&>div>div>p]:mt-[0.1rem] [&>div>div>p]:text-grayishBlue [&>div>div>h2>span#alert]:mb-[0.08rem] [&>div>div>h2>span#alert]:ml-[0.25rem] [&>div>div>h2>span#alert]:inline-block [&>div>div>h2>span#alert]:h-[0.4rem] [&>div>div>h2>span#alert]:w-[0.4rem] [&>div>div>h2>span#alert]:rounded-full [&>div>div>h2>span#alert]:bg-red [&>div>div>img]:ml-[1rem] [&>div>div>img]:w-[2.5rem] [&>div>div>img]:place-self-start [&>div>div>div]:mt-[0.7rem] [&>div>div>div]:rounded-md [&>div>div>div]:border-[1px] [&>div>div>div]:py-[0.9rem] [&>div>div>div]:px-[1rem] [&>div>div>div]:text-grayishBlue"
+      class="mb-20 grid max-w-[43.7rem] gap-3 place-self-center self-start rounded-lg bg-white px-4 pb-[3rem] pt-[1.4rem] shadow-[0px_0px_20px_-3px_rgba(0,0,0,0.1)] md:mr-[3.8rem] md:mt-[3.9rem] md:px-8 md:pt-[2rem] [&>div]:grid [&>div]:cursor-pointer [&>div]:grid-cols-[2.5rem_auto] [&>div]:gap-[0.7rem] [&>div]:rounded-md [&>div]:bg-veryLightGrayishBlue [&>div]:px-[1rem] [&>div]:pt-[1rem] [&>div]:text-[0.87rem] hover:[&>div]:bg-lightGrayishBlue1 md:[&>div]:gap-[1.3rem] md:[&>div]:text-[0.97rem] [&>div>div]:order-2 [&>div>div]:mt-[0.15rem] [&>div>div]:mb-[0.8rem] [&>div>div]:grid [&>div>div>h2]:font-800 [&>div>div>h2]:leading-[1.155rem] [&>div>div>h2>span]:font-500 [&>div>div>h2>span]:text-darkGrayishBlue [&>div>div>h2>span>a]:font-800 [&>div>div>h2>span>a]:text-darkGrayishBlue [&>div>div>p]:mt-[0.1rem] [&>div>div>p]:text-grayishBlue [&>div>div>h2>span#alert]:mb-[0.08rem] [&>div>div>h2>span#alert]:ml-[0.25rem] [&>div>div>h2>span#alert]:inline-block [&>div>div>h2>span#alert]:h-[0.4rem] [&>div>div>h2>span#alert]:w-[0.4rem] [&>div>div>h2>span#alert]:rounded-full [&>div>div>h2>span#alert]:bg-red md:[&>div>div>h2>span#alert]:ml-[0.35rem] [&>div>div>div]:mt-[0.7rem] [&>div>div>div]:cursor-pointer [&>div>div>div]:rounded-md [&>div>div>div]:border-[1px] [&>div>div>div]:py-[0.9rem] [&>div>div>div]:px-[1rem] [&>div>div>div]:text-grayishBlue hover:[&>div>div>div]:bg-blue hover:[&>div>div>div]:bg-opacity-10 hover:[&>div_a]:text-blue [&>div>a]:order-1 [&>div>a]:w-[2.5rem] [&>div>div>a]:ml-[1rem] [&>div>div>a]:w-[2.5rem] [&>div>div>a]:place-self-end [&>div>div>a]:self-start [&_*]:transition-all"
     >
       <section
-        class="mb-[0.55rem] grid grid-flow-col grid-cols-[8.5rem_2rem_auto] text-[1.26rem] font-800"
+        class="mb-[0.55rem] grid grid-flow-col grid-cols-[8.5rem_2rem_auto] text-[1.26rem] font-800 md:mb-[0.85rem] md:grid-cols-[9.6rem_2rem_auto] md:text-[1.42rem]"
       >
         <h1>Notifications</h1>
         <p
-          class="-mt-[0.25rem] w-[2rem] justify-start place-self-center rounded-md bg-blue text-center align-middle text-[1rem] text-white"
+          class="-mt-[0.25rem] w-[2rem] justify-start place-self-center rounded-md bg-blue text-center align-middle text-[1rem] text-white md:-mt-[0.1rem]"
         >
-          3
+          7
         </p>
         <button
-          class="place-self-end self-center text-[0.835rem] text-grayishBlue"
+          id="mark-all"
+          class="place-self-end self-center text-[0.835rem] text-grayishBlue transition-all hover:text-blue md:text-[0.9rem]"
         >
           Mark all as read
         </button>
       </section>
-      <div>
+      <div id="mark">
         <div>
           <h2>
-            Mark Webber
+            <a href="#">Mark Webber</a>
             <span>
               reacted to your recent post
               <a href="#">My first tournament today!</a>
@@ -49,23 +50,27 @@
           </h2>
           <p>1m ago</p>
         </div>
-        <img src="./avatar-mark-webber.webp" alt="Mark Webber" />
+        <a href="#">
+          <img src="./avatar-mark-webber.webp" alt="Mark Webber" />
+        </a>
       </div>
-      <div>
+      <div id="angela">
         <div>
           <h2>
-            Angela Gray
+            <a href="#">Angela Gray</a>
             <span>followed you</span>
             <span id="alert"></span>
           </h2>
           <p>5m ago</p>
         </div>
-        <img src="./avatar-angela-gray.webp" alt="Angela Gray" />
+        <a href="#">
+          <img src="./avatar-angela-gray.webp" alt="Angela Gray" />
+        </a>
       </div>
-      <div>
+      <div id="jacob">
         <div>
           <h2>
-            Jacob Thompson
+            <a href="#">Jacob Thompson</a>
             <span
               >has joined your group
               <a href="#">Chess Club</a>
@@ -74,12 +79,14 @@
           </h2>
           <p>1 day ago</p>
         </div>
-        <img src="./avatar-jacob-thompson.webp" alt="Jacob Thompson" />
+        <a href="#">
+          <img src="./avatar-jacob-thompson.webp" alt="Jacob Thompson" />
+        </a>
       </div>
-      <div>
+      <div id="rizky">
         <div>
           <h2>
-            Rizky Hasanuddin
+            <a href="#">Rizky Hasanuddin</a>
             <span>sent you a private message</span>
             <span id="alert"></span>
           </h2>
@@ -90,28 +97,30 @@
             game.
           </div>
         </div>
-        <img src="./avatar-rizky-hasanuddin.webp" alt="Rizky Hasanuddin" />
+        <a href="#">
+          <img src="./avatar-rizky-hasanuddin.webp" alt="Rizky Hasanuddin" />
+        </a>
       </div>
-      <div>
+      <div id="kimberly">
         <div>
           <h2>
-            Kimberly Smith
+            <a href="#">Kimberly Smith</a>
             <span>commented on your picture</span>
             <span id="alert"></span>
           </h2>
           <p>1 week ago</p>
-          <img
-            class="col-start-2 col-end-3 row-start-1 row-end-3 place-self-end"
-            src="./image-chess.webp"
-            alt="Playing chess"
-          />
+          <a class="col-start-2 col-end-3 row-start-1 row-end-3" href="#"
+            ><img src="./image-chess.webp" alt="Playing chess"
+          /></a>
         </div>
-        <img src="./avatar-kimberly-smith.webp" alt="Kimberly Smith" />
+        <a href="#">
+          <img src="./avatar-kimberly-smith.webp" alt="Kimberly Smith" />
+        </a>
       </div>
-      <div>
+      <div id="nathan">
         <div>
           <h2>
-            Nathan Peterson
+            <a href="#">Nathan Peterson</a>
             <span>
               reacted to your recent post
               <a href="#">5 end-game strategies to increase your win rate</a>
@@ -120,12 +129,14 @@
           </h2>
           <p>2 weeks ago</p>
         </div>
-        <img src="./avatar-nathan-peterson.webp" alt="Nathan Peterson" />
+        <a href="#">
+          <img src="./avatar-nathan-peterson.webp" alt="Nathan Peterson" />
+        </a>
       </div>
-      <div>
+      <div id="anna">
         <div>
           <h2>
-            Anna Kim
+            <a href="#">Anna Kim</a>
             <span
               >left the group
               <a href="#">Chess Club</a>
@@ -134,7 +145,9 @@
           </h2>
           <p>2 weeks ago</p>
         </div>
-        <img src="./avatar-anna-kim.webp" alt="Anna Kim" />
+        <a href="#">
+          <img src="./avatar-anna-kim.webp" alt="Anna Kim" />
+        </a>
       </div>
     </main>
     <footer class="attribution">
