@@ -12,7 +12,7 @@ const notifications = elements.map(element => {
   return {
     id: element,
     section: document.querySelector(`div#${element}`),
-    alert: document.querySelector(`div#${element} > div > h2 > span#alert`),
+    alert: document.querySelector(`div#${element} > div > h2 > span.alert`),
     state: true,
   };
 });

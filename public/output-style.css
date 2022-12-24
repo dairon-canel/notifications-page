@@ -1021,3 +1021,38 @@ body {
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
   transition-duration: 150ms;
 }
+
+.\[\&\>div\>div\>h2\>span\.alert\]\:mb-\[0\.08rem\]>div>div>h2>span.alert {
+  margin-bottom: 0.08rem;
+}
+
+.\[\&\>div\>div\>h2\>span\.alert\]\:ml-\[0\.25rem\]>div>div>h2>span.alert {
+  margin-left: 0.25rem;
+}
+
+.\[\&\>div\>div\>h2\>span\.alert\]\:inline-block>div>div>h2>span.alert {
+  display: inline-block;
+}
+
+.\[\&\>div\>div\>h2\>span\.alert\]\:h-\[0\.4rem\]>div>div>h2>span.alert {
+  height: 0.4rem;
+}
+
+.\[\&\>div\>div\>h2\>span\.alert\]\:w-\[0\.4rem\]>div>div>h2>span.alert {
+  width: 0.4rem;
+}
+
+.\[\&\>div\>div\>h2\>span\.alert\]\:rounded-full>div>div>h2>span.alert {
+  border-radius: 9999px;
+}
+
+.\[\&\>div\>div\>h2\>span\.alert\]\:bg-red>div>div>h2>span.alert {
+  --tw-bg-opacity: 1;
+  background-color: hsl(1 90% 64% / var(--tw-bg-opacity));
+}
+
+@media (min-width: 768px) {
+  .md\:\[\&\>div\>div\>h2\>span\.alert\]\:ml-\[0\.35rem\]>div>div>h2>span.alert {
+    margin-left: 0.35rem;
+  }
+}
